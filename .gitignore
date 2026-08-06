@@ -1,0 +1,34 @@
+
+#Python
+__pyache__/
+*.py[cod]
+*.Pyo
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
+
+# Upload Files
+uploads/
+
+# Chroma Database
+chroma_db/
+
+# Alembic Cache
+alembic/__pycache__/
+
+# Pytest Cache
+.pytest_cache/
+
+# Docker
+*.log
+
+# macOS
+.DS_Store
