@@ -1,0 +1,13 @@
+model: OpenAI
+# We use the OpenAI provider because OpenRouter is OpenAI-compatible
+# The base_url will be pointed to OpenRouter's API
+openai:
+  model: google/gemini-2.5-flash
+  api_key: ${OPENROUTER_API_KEY}
+  base_url: https://openrouter.ai/api/v1
+
+# Define the embedding model used for intent detection (Canonical Forms)
+embeddings:
+  model: OpenAIEmbeddingModel
+  api_key: ${OPENROUTER_API_KEY}
+  base_url: https://openrouter.ai/api/v1
